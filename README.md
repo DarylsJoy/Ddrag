@@ -1,7 +1,5 @@
 # Ddrag
-
-一个简单的拖拽功能模块
-
+没有使用HTML5drag/dropAPI
 ```
 <div class="drag-box">
   <div class="drag-bar">拖动我试试</div>

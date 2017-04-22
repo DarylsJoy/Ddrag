@@ -36,6 +36,7 @@ Ddrag.prototype.init = function(gragTarget = this.gragTarget, moveTarget = this.
     let e = event || window.event;
     this.params.currentX = e.clientX;
     this.params.currentY = e.clientY;
+    gragTarget.onselectstart = () => { return false; }
   });
   document.addEventListener('mouseup', () => {
     this.params.flag = false;

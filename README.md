@@ -1,6 +1,6 @@
 # Ddrag
 简单的拖拽，没有使用HTML5drag/dropAPI
-```
+```html
 <div class="drag-box">
   <div class="drag-bar">拖动我试试</div>
 </div>

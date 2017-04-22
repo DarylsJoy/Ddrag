@@ -18,7 +18,7 @@
   };
   let dragBox = document.querySelectorAll('.drag-box');
   let dragBar = document.querySelectorAll('.drag-bar');
-  let drag1 = new Ddrag(dragBar[0], dragBox[0], printPosition).init();
-  let drag2 = new Ddrag(dragBar[1], dragBox[1], printPosition).init();
+  new Ddrag(dragBar[0], dragBox[0], printPosition).init();
+  new Ddrag(dragBar[1], dragBox[1], printPosition).init();
 </script>
 ```

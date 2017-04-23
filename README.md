@@ -9,14 +9,13 @@
 </div>
 ```
 ```javascript
-<script src="Ddrag.js"></script>
-<script>
-  const printPosition = (...args) => {
-    console.log(args);
-  };
-  let dragBox = document.querySelectorAll('.drag-box');
-  let dragBar = document.querySelectorAll('.drag-bar');
-  new Ddrag(dragBar[0], dragBox[0], printPosition).init();
-  new Ddrag(dragBar[1], dragBox[1]).init();
-</script>
+import Ddrag from './Ddrag.js';
+
+const printPosition = (...args) => {
+ console.log(args);
+};
+let dragBox = document.querySelectorAll('.drag-box');
+let dragBar = document.querySelectorAll('.drag-bar');
+new Ddrag(dragBar[0], dragBox[0], printPosition).init();
+new Ddrag(dragBar[1], dragBox[1]).init();
 ```

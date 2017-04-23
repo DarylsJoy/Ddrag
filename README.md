@@ -23,6 +23,6 @@ new Ddrag(dragBar[1], dragBox[1]).init();
 ```
 
 可直接引入
-```
+```html
 <script src="http://demo.daryldong.com/Ddrag/Ddrag.min.js"></script>
 ```
